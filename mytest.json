@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-1",
+            "eventTime": "2024-03-28T08:59:46.534Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "A4JYOH4M3ZE2V"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "45.249.79.237"
+            },
+            "responseElements": {
+                "x-amz-request-id": "YCK7C8V72B9VETM8",
+                "x-amz-id-2": "iaI3ydck4qMgz/uREeKMXAYZ/dmvMDc8xU1ARB7NfRSGkH93SUjxu9ReW8dAZ6os5dZvWQRrGMgRsfWOrrkcd1dQNCGdM9fz"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "project-event",
+                "bucket": {
+                    "name": "mybucket2176",
+                    "ownerIdentity": {
+                        "principalId": "A4JYOH4M3ZE2V"
+                    },
+                    "arn": "arn:aws:s3:::mybucket2176"
+                },
+                "object": {
+                    "key": "phone-call-about-work.m4a.mp3",
+                    "size": 76015,
+                    "eTag": "a38fc502135b6228202147a01ff51b66",
+                    "sequencer": "00660531827E1A60AA"
+                }
+            }
+        }
+    ]
+}
